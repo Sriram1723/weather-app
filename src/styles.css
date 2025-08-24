@@ -58,11 +58,10 @@ button{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap:15px;
+    gap:5px;
 }
 
 .wind-humidity{
-    margin-top: 10px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -87,14 +86,14 @@ button{
 
     .city-name{
         font-size: 45px;
-        font-weight: bolder;
     }
     .date{
-        font-size: 20px;
+        font-size: 18px;
+        font-family: monospace;
     }
 
     .temperature{
-        font-size: 55px;
+        font-size: 50px;
     }
 
     .desc{
