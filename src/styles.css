@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(15, 198, 140);
+    background: linear-gradient(to bottom, #ff0084, #33001b);
+}
+
+input{
+    width:40vw;
+    height:40px;
+    border-radius: 10px;
+    text-indent: 1vw;
+    font-size: large;
+}
+
+.search-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 10vh;
+    gap:10px;
+}
+
+button{
+    width:8vw;
+    height:41px;
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
+    border:none;
+    font-size: large;
+}
+
+.city-name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.date{
+    font-size: 25px;
+}
+
+.temperature{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: 40px;
+}
+
+.wind,.humidity{
+    font-size: 30px;
+}
+.wind span,.humidity span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.weather-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.wind-humidity{
+    display:flex;
+    justify-content: space-evenly;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+    gap:30px;
+}
+
+@media only screen and (max-width:600px){
+
+    button{
+        width: 20vw;
+        font-size: 4vw;
+    }
+    input{
+        width:70vw;
+        text-indent: 5vw;
+    }
+
+    .city-name{
+        font-size: 45px;
+    }
+    .date{
+        font-size: 25px;
+    }
+
+    .temperature{
+        font-size: 50px;
+    }
+
+    .desc{
+        font-size: 40px;
+    }
+
+    .wind,.humidity{
+        font-size: 25px;
+    }
+
+    .wind span,.humidity span{
+        font-size: 25px;
+    }
+}
