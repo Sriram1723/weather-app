@@ -62,6 +62,7 @@ button{
 }
 
 .wind-humidity{
+    margin-top: 10px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -86,13 +87,14 @@ button{
 
     .city-name{
         font-size: 45px;
+        font-weight: bolder;
     }
     .date{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .temperature{
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .desc{
